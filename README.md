@@ -352,6 +352,6 @@ Acknowledgments
 
 This document was inspired by a talk in ESA-Darwin 2023 by [Dax Kellie](https://github.com/daxkellie). It was a talk on improving code reproducibility and introduced me to the packages I discuss in this document. 
 
-This document was also designed as a supplementary material for a talk to my lab group [Dwyer and Associates](https://jdwyer2.wordpress.com/). Use it wisely! 
+This document was also designed as a supplementary material for a talk to the [Dwyer and Associates](https://jdwyer2.wordpress.com/) lab group. Use it wisely! 
 
 Thanks!
