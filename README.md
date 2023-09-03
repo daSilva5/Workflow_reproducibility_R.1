@@ -341,9 +341,8 @@ utils::remove.packages("renv")
 
 <figure>
 <img src="attach/Rmarkdown.jpg"
-alt="Generated usig html output. Code is on the top of this document." />
-<figcaption aria-hidden="true">Generated usig html output. Code is on
-the top of this document.</figcaption>
+alt="Generated using html output." />
+<figcaption aria-hidden="true">Generated using html output.</figcaption>
 </figure>
 
 <br> <br> <br> <br> <br> <br> <br> <br> <br>

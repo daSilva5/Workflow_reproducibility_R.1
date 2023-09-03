@@ -10,4 +10,5 @@ textpattern/
 HISTORY.txt
 README.txt
 .Rproj.user
-Workflow_reproducibility_R.Rdm
+Workflow_reproducibility_R.Rmd
+README.Rmd
