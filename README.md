@@ -159,7 +159,7 @@ Barrett](https://malco.io/articles/2018-11-05-why-should-i-use-the-here-package-
 
 - `renv` is your project in a nutshell. Which is ideal for
   reproducibility. It means that your collaborators can replicate your R
-  environment see more on [GitHub with renv](#GitHub%20with%20renv).
+  environment see more on [GitHub with renv](#github-with-renv).
 
 - Right now, every time you install a package you can use it across all
   projects. `renv` isolates your library, gives each project its own
@@ -200,8 +200,7 @@ packages](attach/lockfile.jpg) <br> <br> <br>
 - While using `renv`, `install.packages()` will use CRAN as default for
   downloading packages. Instead, using `renv::install()` you can
   download packages from CRAN, GitHub, Bioconductor, and others. But
-  check [Problems for installing packages after activating
-  renv](#Problems%20for%20installing%20packages%20after%20activating%20renv).
+  check [Problems for installing packages after activating  renv](#problems-for-installing-packages-after-activating-renv).
 
 ### You will love this feature
 
@@ -310,8 +309,7 @@ So far, `Rmarkdown` is working fine for me. Keep an eye on how your
 - To completely remove `renv` from a project use
   `renv::deactivate(clean=T)`
 
-- `renv` install a global structure, as we saw in [Global
-  cache](##The%20global%20cache), to remove `renv` from all project and
+- `renv` install a global structure, as we saw in [Global cache](#the-global-cache), to remove `renv` from all project and
   its global structure:
 
 ``` r
@@ -352,9 +350,8 @@ the top of this document.</figcaption>
 
 Acknowledgments
 
-[Dax Kellie](https://github.com/daxkellie) commented during ESA- Darwin
-2023, that the greatest barrier for running published codes is the need
-to edit all the paths. It was a talk on improving code reproducibility
-and introduced me to the packages I discuss in this document. That talk
-inspired me to improve my workflow and try to inspire others with this
-document. Thanks!
+This document was inspired by a talk in ESA-Darwin 2023 by [Dax Kellie](https://github.com/daxkellie). It was a talk on improving code reproducibility and introduced me to the packages I discuss in this document. 
+
+This document was also designed as a supplementary material for a talk to my lab group [Dwyer and Associates](https://jdwyer2.wordpress.com/). Use it wisely! 
+
+Thanks!
