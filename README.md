@@ -1,4 +1,4 @@
-Workflow and Reproducibility in R
+Workflow and Reproducibility in R <img src="attach/photoround.jpg" align="right" height="138" alt = ""/></a>
 ================
 Isis Arend da Silva
 03 September, 2023
@@ -311,7 +311,7 @@ So far, `Rmarkdown` is working fine for me. Keep an eye on how your
   `renv::deactivate(clean=T)`
 
 - `renv` install a global structure, as we saw in [Global
-  cache](#The%20global%20cache), to remove `renv` from all project and
+  cache](##The%20global%20cache), to remove `renv` from all project and
   its global structure:
 
 ``` r
