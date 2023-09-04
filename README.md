@@ -157,14 +157,18 @@ Barrett](https://malco.io/articles/2018-11-05-why-should-i-use-the-here-package-
 
 ## The `renv` package
 
-- `renv` is your project in a nutshell. Which is ideal for
-  reproducibility. It means that your collaborators can replicate your R
+- `renv` isolates your project. It means that your collaborators can replicate your R
   environment see more on [GitHub with renv](#github-with-renv).
 
 - Right now, every time you install a package you can use it across all
   projects. `renv` isolates your library, gives each project its own
   package library. Thus, installing new packages does not affect other
-  projects. `renv` also gives control over the package versions you use.
+  projects.
+  
+-`renv` gives control over the package versions you use. Previous versions of the packages can be restored if necessary.
+
+- Be aware that `renv` runs using your installed R version. It can cause incompatibility and the necessity to update packages. Inevitably, a published code will end up running in a different R version. And, if it causes results to change, the advantage is that it can be reconciled by changing the R version and running the packages' versions previously recorded by `renv`.
+
 
 ### Installing `renv` with an existing project
 
@@ -306,10 +310,10 @@ So far, `Rmarkdown` is working fine for me. Keep an eye on how your
   infrastructure, thus you can reactivate later if necessary using
   `renv::activate()`.
 
-- To completely remove `renv` from a project use
+- To completely remove `renv` from a project, use
   `renv::deactivate(clean=T)`
 
-- `renv` install a global structure, as we saw in [Global cache](#the-global-cache), to remove `renv` from all project and
+- `renv` installs a global structure, as we saw in [Global cache](#the-global-cache). To remove `renv` from all projects and
   its global structure:
 
 ``` r
