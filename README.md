@@ -158,14 +158,14 @@ Barrett](https://malco.io/articles/2018-11-05-why-should-i-use-the-here-package-
 ## The `renv` package
 
 - `renv` isolates your project. It means that your collaborators can replicate your R
-  environment see more on [GitHub with renv](#github-with-renv).
+  environment.  See more on [GitHub with renv](#github-with-renv) on how to share and replicate your R environment.
 
 - Right now, every time you install a package you can use it across all
   projects. `renv` isolates your library, gives each project its own
   package library. Thus, installing new packages does not affect other
   projects.
   
--`renv` gives control over the package versions you use. Previous versions of the packages can be restored if necessary.
+- `renv` gives you control over the packages' versions. Previous versions of the packages can be restored if necessary.
 
 - Be aware that `renv` runs using your installed R version. It can cause incompatibility and the necessity to update packages. Inevitably, a published code will end up running in a different R version. And, if it causes results to change, the advantage is that it can be reconciled by changing the R version and running the packages' versions previously recorded by `renv`.
 
